@@ -1,3 +1,5 @@
+<b>My solution for Programming Foundations with JavaScript, HTML and CSS </b>
+
 # Programming Foundations with JavaScript, HTML and CSS
 This course is offered at <a href="https://www.coursera.org">Coursera</a> and is part of the <a href="https://www.coursera.org/specializations/java-programming">Java Programming and Software Engineering Fundamentals</a>.
 
