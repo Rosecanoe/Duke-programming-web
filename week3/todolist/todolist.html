@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet" type="text/css" href="todolist.css">
+</head>
+<body>
+    <h1 id="myHeader">TO DO List</h1>
+    <input id="addButton" type="button" value="Add" onclick=addTask()> 
+    <input id="input" type="text" placeholder="enter task..."> 
+    <!-- STEPs 1 and 2 below here  -->
+    
+     <hr>
+    
+    <ul id="tasks">
+    
+      <li>
+    
+        <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" /> 
+    <!-- 好神奇，这里是用函数，传入参数为函数对象的父节点 -->
+        <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+        <input type="button" class="important" onclick="important(this.parentNode)" value="&#x0021;" />
+    
+        make todo list
+    
+      </li>
+    
+     </ul>
+    
+    <hr>
+    
+    <!-- STEPs 8 and 9 below here  -->
+    <div id="divabout" alt="the author"></div>
+    <input type="button" value="About" onclick=doAbout()>
+    <!-- STEP 13 below here  -->
+    <input type="button" value="Clear" onclick=clearAbout()>
+
+
+    <script src="todolist.js" type="text/javascript"></script>    
+</body>
+</html>
