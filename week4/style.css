@@ -1,0 +1,17 @@
+body {
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+canvas {
+    border:1px solid gray;
+}
+
+h2 {
+    margin-bottom:5px;
+}
+
+
+div {
+    margin:10px 0px 10px 0px;
+}
